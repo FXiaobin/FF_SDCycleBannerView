@@ -1,1 +1,1 @@
-# SDCycleBannerView
+# SDCycleBannerView 基于SDCycleScrollView库简单封装的一个轮播图
