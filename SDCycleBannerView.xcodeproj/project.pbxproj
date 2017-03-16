@@ -7,15 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		42A092E88788D10498DEAA77 /* libPods-SDCycleBannerView.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 48D2D5B7CCDA489D607344E3 /* libPods-SDCycleBannerView.a */; };
 		D00319D71E7A3A6300B5E885 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D00319D61E7A3A6300B5E885 /* main.m */; };
 		D00319DA1E7A3A6300B5E885 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D00319D91E7A3A6300B5E885 /* AppDelegate.m */; };
 		D00319DD1E7A3A6300B5E885 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D00319DC1E7A3A6300B5E885 /* ViewController.m */; };
 		D00319E01E7A3A6300B5E885 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D00319DE1E7A3A6300B5E885 /* Main.storyboard */; };
 		D00319E21E7A3A6300B5E885 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D00319E11E7A3A6300B5E885 /* Assets.xcassets */; };
 		D00319E51E7A3A6300B5E885 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D00319E31E7A3A6300B5E885 /* LaunchScreen.storyboard */; };
+		D00319EE1E7A3B6D00B5E885 /* SDCycleBannerView.m in Sources */ = {isa = PBXBuildFile; fileRef = D00319ED1E7A3B6D00B5E885 /* SDCycleBannerView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		48D2D5B7CCDA489D607344E3 /* libPods-SDCycleBannerView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SDCycleBannerView.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		69B65DA5403E82B660A08AD2 /* Pods-SDCycleBannerView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SDCycleBannerView.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SDCycleBannerView/Pods-SDCycleBannerView.debug.xcconfig"; sourceTree = "<group>"; };
+		BB94BC7B6981D93B922AECB8 /* Pods-SDCycleBannerView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SDCycleBannerView.release.xcconfig"; path = "Pods/Target Support Files/Pods-SDCycleBannerView/Pods-SDCycleBannerView.release.xcconfig"; sourceTree = "<group>"; };
 		D00319D21E7A3A6300B5E885 /* SDCycleBannerView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SDCycleBannerView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D00319D61E7A3A6300B5E885 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		D00319D81E7A3A6300B5E885 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -26,6 +31,8 @@
 		D00319E11E7A3A6300B5E885 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D00319E41E7A3A6300B5E885 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D00319E61E7A3A6300B5E885 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D00319EC1E7A3B6D00B5E885 /* SDCycleBannerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDCycleBannerView.h; sourceTree = "<group>"; };
+		D00319ED1E7A3B6D00B5E885 /* SDCycleBannerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDCycleBannerView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +40,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				42A092E88788D10498DEAA77 /* libPods-SDCycleBannerView.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		242541A91F52C1238367F71D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				48D2D5B7CCDA489D607344E3 /* libPods-SDCycleBannerView.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		31AB03C61C9832E04076F949 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				69B65DA5403E82B660A08AD2 /* Pods-SDCycleBannerView.debug.xcconfig */,
+				BB94BC7B6981D93B922AECB8 /* Pods-SDCycleBannerView.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		D00319C91E7A3A6300B5E885 = {
 			isa = PBXGroup;
 			children = (
 				D00319D41E7A3A6300B5E885 /* SDCycleBannerView */,
 				D00319D31E7A3A6300B5E885 /* Products */,
+				31AB03C61C9832E04076F949 /* Pods */,
+				242541A91F52C1238367F71D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,6 +85,8 @@
 		D00319D41E7A3A6300B5E885 /* SDCycleBannerView */ = {
 			isa = PBXGroup;
 			children = (
+				D00319EC1E7A3B6D00B5E885 /* SDCycleBannerView.h */,
+				D00319ED1E7A3B6D00B5E885 /* SDCycleBannerView.m */,
 				D00319D81E7A3A6300B5E885 /* AppDelegate.h */,
 				D00319D91E7A3A6300B5E885 /* AppDelegate.m */,
 				D00319DB1E7A3A6300B5E885 /* ViewController.h */,
@@ -86,9 +115,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D00319E91E7A3A6300B5E885 /* Build configuration list for PBXNativeTarget "SDCycleBannerView" */;
 			buildPhases = (
+				EBAD88C5EA5B6F18E28E2875 /* [CP] Check Pods Manifest.lock */,
 				D00319CE1E7A3A6300B5E885 /* Sources */,
 				D00319CF1E7A3A6300B5E885 /* Frameworks */,
 				D00319D01E7A3A6300B5E885 /* Resources */,
+				3D14CEED2D160BB6F3FD63ED /* [CP] Embed Pods Frameworks */,
+				3CF51DB89872ED60D5022C85 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -145,6 +177,54 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		3CF51DB89872ED60D5022C85 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SDCycleBannerView/Pods-SDCycleBannerView-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3D14CEED2D160BB6F3FD63ED /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SDCycleBannerView/Pods-SDCycleBannerView-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EBAD88C5EA5B6F18E28E2875 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		D00319CE1E7A3A6300B5E885 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -152,6 +232,7 @@
 			files = (
 				D00319DD1E7A3A6300B5E885 /* ViewController.m in Sources */,
 				D00319DA1E7A3A6300B5E885 /* AppDelegate.m in Sources */,
+				D00319EE1E7A3B6D00B5E885 /* SDCycleBannerView.m in Sources */,
 				D00319D71E7A3A6300B5E885 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -270,6 +351,7 @@
 		};
 		D00319EA1E7A3A6300B5E885 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 69B65DA5403E82B660A08AD2 /* Pods-SDCycleBannerView.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = SDCycleBannerView/Info.plist;
@@ -281,6 +363,7 @@
 		};
 		D00319EB1E7A3A6300B5E885 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BB94BC7B6981D93B922AECB8 /* Pods-SDCycleBannerView.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = SDCycleBannerView/Info.plist;
@@ -309,6 +392,7 @@
 				D00319EB1E7A3A6300B5E885 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
