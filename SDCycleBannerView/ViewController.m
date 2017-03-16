@@ -41,7 +41,9 @@ static NSString *kUITableViewCell = @"UITableViewCell";
     bannerView.imageURLStringsGroup = @[
                                @"http://img06.tooopen.com/images/20160727/tooopen_sl_172703871932.jpg",
                                @"http://img06.tooopen.com/images/20161123/tooopen_sl_187628819897.jpg",
-                               @"http://img07.tooopen.com/images/20170306/tooopen_sl_200775855137.jpg"];
+                               @"http://img07.tooopen.com/images/20170306/tooopen_sl_200775855137.jpg",
+                               @"http://img07.tooopen.com/images/20170209/tooopen_sl_198253492349.jpg",
+                                @"http://img06.tooopen.com/images/20160919/tooopen_sl_179298256299.jpg"];
     
     _tableView.tableHeaderView = bannerView;
 }
